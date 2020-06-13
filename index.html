@@ -10,23 +10,12 @@
 </head>
 <body>
     <form name="todoform">
-        <input name="title" placeholder="Title"/>
-        <input name="price" placeholder="price"/>
-        <input name="description" placeholder="Description"/>
-        <input name="imgUrl" placeholder="Image Url"/>
+        <input name="title" data-lpignore="true" placeholder="Title"/>
+        <input name="price" data-lpignore="true" placeholder="price"/>
+        <input name="description" data-lpignore="true" placeholder="Description"/>
+        <input name="imgUrl" data-lpignore="true" placeholder="Image Url"/>
         <button name="submit" onclick="newTodo(event)">Submit</button>
     </form>
-    <!-- <form name="updateform">
-        <input name="title" placeholder="Title"/>
-        <input name="price" placeholder="price"/>
-        <input name="description" placeholder="Description"/>
-        <input name="imgUrl" placeholder="Image Url"/>
-        <input name="id" placeholder="id"/>
-        <button name="delete" onclick="updateToDo(event)">Update</button>
-    </form> -->
-    <div id="todo-list">
-        
-    </div>
-    
+    <div id="todo-list"></div>
 </body>
 </html>
