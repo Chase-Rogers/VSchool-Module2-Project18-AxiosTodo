@@ -2,19 +2,19 @@ img {
     width: 100px;
 }
 
-#todo-list {
-    display: flex;
-    flex-wrap: wrap;
+
+
+#todoItem, form {
+    margin: 50px;
+    max-width: 300px;
 }
 
-form {
-    margin: 50px;
-}
 
 .complete {
     text-decoration: line-through;
 }
 
-form {
-    max-width: 300px;
+#todo-list {
+    display: flex;
+    flex-wrap: wrap;
 }
